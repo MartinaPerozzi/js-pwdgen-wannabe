@@ -8,9 +8,9 @@ let your_surname = prompt("Cognome");
 let your_color = prompt("Favourite color");
 
 // Messaggio per l'utente
-const welcome_msg = `La tua password è ${your_name}${your_surname}${your_color}23`;
-console.log(welcome_msg);
 
+// const welcome_msg = `La tua password è ${your_name}${your_surname}${your_color}23`;
+// console.log(welcome_msg);
 
 document.getElementById("welcome-title").innerHTML = `La tua password è ${your_name}${your_surname}${your_color}23`;
 
